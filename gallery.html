@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px 0;
+      color: #333;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .image-item {
+      margin: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .image-item:hover {
+      transform: scale(1.05);
+    }
+
+    .image-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+  <title>Image Gallery</title>
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="image-container">
+    <div class="image-item">
+      <img src="images/img-1.jpg" alt="Image 1">
+    </div>
+    <div class="image-item">
+      <img src="images/img-2.jpg" alt="Image 2">
+    </div>
+    <!-- Add more image items as needed -->
+  </div>
+
+</body>
+</html>
